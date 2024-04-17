@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
 <?php
 
 session_start()
@@ -48,3 +52,6 @@ elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit()
 }
 ?>
+
+</body>
+</html>
