@@ -17,6 +17,8 @@ if(isset($_SESSION['username']) && isset($_SESSION['email'])) {
 }
 ?>
 
---A unique session ID is generated. Session data is stored on the server. Developers can set session variables using the "$_SESSION" global array. In order to retrieve session data, the session ID is retrieved and thus allows the retrieval of data. After 24 minutes, sessions expire, PHP automatically cleans up expired sessions.
+/*
+A unique session ID is generated. Session data is stored on the server. Developers can set session variables using the "$_SESSION" global array. In order to retrieve session data, the session ID is retrieved and thus allows the retrieval of data. After 24 minutes, sessions expire, PHP automatically cleans up expired sessions.
 
---PHP differentiates between different user sessions using session IDs. PHP checks the session ID sent by user to identify the corresponding session data.
+PHP differentiates between different user sessions using session IDs. PHP checks the session ID sent by user to identify the corresponding session data.
+*/
